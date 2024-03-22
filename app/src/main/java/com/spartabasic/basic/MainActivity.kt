@@ -36,13 +36,16 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        setupButton()
-        setRandomValueBetweenOneToHundred()
-        setJobAndLaunch()
+
 
         button = findViewById(R.id.clickButton)
         randomTextView = findViewById(R.id.textViewRandom)
         textView = findViewById(R.id.spartaTextView)
+
+        setupButton()
+        setRandomValueBetweenOneToHundred()
+        setJobAndLaunch()
+
     }
 
 
